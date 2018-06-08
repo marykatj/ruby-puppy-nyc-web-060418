@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def self.all
-  @all.map do |dog|
+  @@all.each do |dog|
     puts @name
   end
 end
