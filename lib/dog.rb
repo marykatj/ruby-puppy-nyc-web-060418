@@ -12,6 +12,7 @@ end
 def self.all
   @all.each do |dog|
     puts dog
+  end
 end
 
 def self.clear_all
