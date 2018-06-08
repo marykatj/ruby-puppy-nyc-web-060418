@@ -14,5 +14,9 @@ def self.all
     puts dog
 end
 
+def self.clear_all
+  @@all.clear
+
+end
 
 end
