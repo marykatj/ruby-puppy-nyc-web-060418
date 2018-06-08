@@ -11,7 +11,7 @@ end
 
 def self.all
   @@all.each do |dog|
-    puts @name.split(" ")
+    puts @name.join(" ")
   end
 end
 
